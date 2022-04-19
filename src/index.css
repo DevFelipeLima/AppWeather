@@ -1,13 +1,41 @@
 body {
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.informations{
+  background-image: url('../src/img/fundo.jpg');
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 2;
+  font-size: larger;
+  font-weight: bold;
+  height: 1000px;
+}
+
+.ErrorMensage{
+  height: 250px;
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 650px;
+  border: 5px solid #000;
+  border-radius: 25px;
+  font-size: large;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
